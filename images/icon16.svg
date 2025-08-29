@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 128 128">
+  <!-- Background Shield -->
+  <path d="M64 8 L8 32 L8 64 C8 96 32 120 64 120 C96 120 120 96 120 64 L120 32 Z" fill="#1a3c6e" />
+  
+  <!-- Inner Shield -->
+  <path d="M64 16 L16 36 L16 64 C16 92 36 112 64 112 C92 112 112 92 112 64 L112 36 Z" fill="#007BFF" />
+  
+  <!-- Magnifying Glass -->
+  <circle cx="50" cy="54" r="20" fill="none" stroke="white" stroke-width="6" />
+  <line x1="65" y1="69" x2="85" y2="89" stroke="white" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Checkmark -->
+  <path d="M40 54 L48 62 L60 46" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
