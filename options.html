@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spot the Fake - Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Spot the Fake 🛡️</h1>
+      <p class="subtitle">Extension Settings</p>
+    </header>
+
+    <section class="settings">
+      <h2>Detection Features</h2>
+      <div class="setting-item">
+        <label for="urlAnalysis">
+          <input type="checkbox" id="urlAnalysis" checked>
+          URL Analysis
+        </label>
+        <p class="setting-description">Analyze URLs for suspicious patterns and phishing indicators</p>
+      </div>
+
+      <div class="setting-item">
+        <label for="contentAnalysis">
+          <input type="checkbox" id="contentAnalysis" checked>
+          Content Analysis
+        </label>
+        <p class="setting-description">Analyze page content for fraud indicators and suspicious language</p>
+      </div>
+
+      <div class="setting-item">
+        <label for="brandProtection">
+          <input type="checkbox" id="brandProtection" checked>
+          Brand Protection
+        </label>
+        <p class="setting-description">Detect brand spoofing and lookalike websites</p>
+      </div>
+
+      <div class="setting-item">
+        <label for="realTimeAlerts">
+          <input type="checkbox" id="realTimeAlerts" checked>
+          Real-time Alerts
+        </label>
+        <p class="setting-description">Show warning banners on high-risk websites</p>
+      </div>
+    </section>
+
+    <section class="whitelist">
+      <h2>Whitelist</h2>
+      <p>These domains will not be scanned for fraud:</p>
+      <div class="whitelist-container">
+        <ul id="whitelist-items">
+          <!-- Whitelist items will be added here -->
+        </ul>
+      </div>
+      <div class="add-whitelist">
+        <input type="text" id="whitelist-input" placeholder="example.com">
+        <button id="add-whitelist-btn">Add to Whitelist</button>
+      </div>
+    </section>
+
+    <section class="scan-history">
+      <h2>Recent Scans</h2>
+      <table id="scan-history-table">
+        <thead>
+          <tr>
+            <th>Domain</th>
+            <th>Risk Level</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="scan-history-items">
+          <!-- Scan history items will be added here -->
+        </tbody>
+      </table>
+    </section>
+
+    <div class="actions">
+      <button id="save-btn" class="btn primary">Save Settings</button>
+      <button id="reset-btn" class="btn secondary">Reset to Default</button>
+    </div>
+
+    <footer>
+      <p>Spot the Fake - AI-Powered Fraud Detection</p>
+      <p><small>© 2025 Spot the Fake</small></p>
+    </footer>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

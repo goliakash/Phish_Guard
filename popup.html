@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spot the Fake</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Spot the Fake 🛡️</h1>
+      <p class="subtitle">AI-Powered Fraud Detection</p>
+    </header>
+
+    <div class="current-site">
+      <h2>Current Website</h2>
+      <div id="url-display" class="url-display">Analyzing...</div>
+      <div id="status" class="status-indicator">Scanning...</div>
+    </div>
+
+    <div id="result" class="result-box">
+      <!-- Results will be displayed here -->
+    </div>
+
+    <div class="risk-details" id="risk-details">
+      <!-- Risk details will be displayed here -->
+    </div>
+
+    <div class="actions">
+      <button id="scan-btn" class="btn primary">Scan Again</button>
+      <button id="report-btn" class="btn secondary">Report Site</button>
+    </div>
+
+    <footer>
+      <p>Powered by AI/ML fraud detection</p>
+      <p><small>© 2025 Spot the Fake</small></p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
