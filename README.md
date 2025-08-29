@@ -47,5 +47,6 @@ It uses AI-powered analysis and real-time webpage inspection to warn users befor
 
 ## 📦 Installation (Developer Mode)
 1. Download or clone this repository:
-   ```bash  https://github.com/goliakash/Phish_Guard.git
+   ```bash
+   https://github.com/goliakash/Phish_Guard.git
   
