@@ -38,10 +38,10 @@ It uses AI-powered analysis and real-time webpage inspection to warn users befor
   Acts as the extension’s brain. It receives signals from content scripts, runs detection logic, and triggers alerts/notifications.
 
 - **Popup (`popup.html`)**  
-  Provides a simple interface to view detection results and interact with the extension.
+  Provides a simple interface for viewing detection results and interacting with the extension.
 
 - **Options Page**  
-  Lets users configure settings such as sensitivity, whitelist/blacklist, and detection preferences.
+  Let's users configure settings such as sensitivity, whitelist/blacklist, and detection preferences.
 
 ---
 
